@@ -20,8 +20,8 @@ setup(
 
     # Wheel creation breaks with Windows newlines.
     # https://github.com/pypa/setuptools/issues/1126
-    long_description=mouse.__doc__.replace('\r\n', '\n'),
-    long_description_content_type='text/markdown',
+    # long_description=mouse.__doc__.replace('\r\n', '\n'),
+    # long_description_content_type='text/markdown',
 
     install_requires=["pyobjc-framework-Quartz; sys_platform=='darwin'"], # OSX-specific dependency
     classifiers=[
