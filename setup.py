@@ -8,7 +8,7 @@ Usage instructions:
 from setuptools import setup
 setup(
     name='mouse',
-    version=mouse.version,
+    version='0.7.1',
     author='BoppreH',
     author_email='boppreh@gmail.com',
     packages=['mouse'],
