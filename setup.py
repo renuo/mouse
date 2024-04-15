@@ -15,7 +15,7 @@ setup(
     package_data={'mouse': ['*.md']},
     url='https://github.com/boppreh/mouse',
     license='MIT',
-    description='Hook and simulate mouse events on Windows and Linux',
+    description='Hook and simulate mouse events on macOS, Windows and Linux',
     keywords = 'mouse hook simulate hotkey',
 
     # Wheel creation breaks with Windows newlines.
